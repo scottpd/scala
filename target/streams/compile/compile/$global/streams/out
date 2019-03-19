@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/opt/jemstep/code/scala-web-project/app/AppLoader.scala:8:12: object softwaremill is not a member of package com[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.softwaremill.macwire._[0m
+[0m[[0m[31merror[0m] [0m[0m           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/jemstep/code/scala-web-project/app/AppLoader.scala:24:44: not found: value wire[0m
+[0m[[0m[31merror[0m] [0m[0m  override lazy val controllerComponents = wire[DefaultControllerComponents][0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/jemstep/code/scala-web-project/app/AppLoader.scala:26:29: not found: value wire[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val router: Router = wire[Routes][0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/opt/jemstep/code/scala-web-project/app/AppLoader.scala:27:36: not found: value wire[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val applicationController = wire[Application][0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
