@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/opt/jemstep/code/scala-web-project/conf/routes
-// @DATE:Fri Mar 15 13:45:52 UTC 2019
+// @SOURCE:/home/scottp1/dev/scala-web-project/conf/routes
+// @DATE:Tue Mar 19 09:15:11 SAST 2019
 
 package router
 

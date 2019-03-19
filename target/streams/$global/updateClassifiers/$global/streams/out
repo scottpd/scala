@@ -11522,174 +11522,168 @@
 [debug] == resolving dependencies scala-web-project#scala-web-project$sources;1.0-SNAPSHOT->com.google.errorprone#error_prone_annotations;2.2.0 [docs->master]
 [debug] 	resolved ivy file produced in cache
 [debug] :: downloading artifacts ::
-[debug] 	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.12;2.7.0!play-jdbc-api_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone-json_2.12;2.0.1!play-ws-standalone-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.8!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] javax.activation#javax.activation-api;1.2.0!javax.activation-api.jar(src)
+[debug] 	[NOT REQUIRED] com.google.guava#guava;27.0-jre!guava.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#filters-helpers_2.12;2.7.0!filters-helpers_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#cachecontrol_2.12;1.1.5!cachecontrol_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc-api_2.12;2.7.0!play-jdbc-api_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.guava#guava;27.0-jre!guava.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone_2.12;2.0.1!play-ws-standalone_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#shaded-oauth;2.0.1!shaded-oauth.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#shaded-asynchttpclient;2.0.1!shaded-asynchttpclient.jar(src)
+[debug] 	[NOT REQUIRED] com.google.j2objc#j2objc-annotations;1.1!j2objc-annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone_2.12;2.0.1!play-ws-standalone_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jsr310;2.9.8!jackson-datatype-jsr310.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.7.0!play-akka-http-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#shaded-oauth;2.0.1!shaded-oauth.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang#scala-library;2.12.8!scala-library.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-parser-combinators_2.12;1.1.1!scala-parser-combinators_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-json_2.12;2.7.0!play-json_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
-[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.7.0!play_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.12;2.7.0!play-cache_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.1.0!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-akka-http-server_2.12;2.7.0!play-akka-http-server_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.9.0!scala-java8-compat_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.6.2!caffeine.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play_2.12;2.7.0!play_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-ws-standalone-xml_2.12;2.0.1!play-ws-standalone-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.4.0!twirl-api_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.reactivestreams#reactive-streams;1.0.2!reactive-streams.jar(src)
 [debug] 	[NOT REQUIRED] com.google.guava#failureaccess;1.0!failureaccess.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#build-link;2.7.0!build-link.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
+[debug] 	[NOT REQUIRED] com.googlecode.usc#jdbcdslog;1.0.6.2!jdbcdslog.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-java8-compat_2.12;0.9.0!scala-java8-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-cache_2.12;2.7.0!play-cache_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-collection-compat_2.12;0.1.1!scala-collection-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#caffeine;2.6.2!caffeine.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jul-to-slf4j;1.7.25!jul-to-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-classic;1.2.3!logback-classic.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-http-core_2.12;10.1.7!akka-http-core_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.12;2.7.0!play-ws_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.19!akka-stream_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.7.0!play-exceptions.jar(src)
+[debug] 	[NOT REQUIRED] com.google.code.findbugs#jsr305;3.0.2!jsr305.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-streams_2.12;2.7.0!play-streams_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ws_2.12;2.7.0!play-ws_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#twirl-api_2.12;1.4.0!twirl-api_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-stream_2.12;2.5.19!akka-stream_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.25!slf4j-api.jar(src)
 [debug] 	[NOT REQUIRED] org.codehaus.mojo#animal-sniffer-annotations;1.17!animal-sniffer-annotations.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-jdbc_2.12;2.7.0!play-jdbc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-ahc-ws_2.12;2.7.0!play-ahc-ws_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-exceptions;2.7.0!play-exceptions.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe#ssl-config-core_2.12;0.3.7!ssl-config-core_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
 [debug] 	[NOT REQUIRED] io.jsonwebtoken#jjwt;0.9.1!jjwt.jar(src)
-[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)
+[debug] 	[NOT REQUIRED] org.typelevel#macro-compat_2.12;1.1.1!macro-compat_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-functional_2.12;2.7.0!play-functional_2.12.jar(src)
+[debug] 	[NOT REQUIRED] javax.xml.bind#jaxb-api;2.3.1!jaxb-api.jar(src)
 [debug] 	[NOT REQUIRED] javax.cache#cache-api;1.0.0!cache-api.jar(src)
-[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] joda-time#joda-time;2.10.1!joda-time.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-slf4j_2.12;2.5.19!akka-slf4j_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.19!akka-actor_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#jcache;2.6.2!jcache.jar(src)
-[debug] 	[NOT REQUIRED] org.checkerframework#checker-qual;2.5.2!checker-qual.jar(src)
-[debug] 	[NOT REQUIRED] org.slf4j#jcl-over-slf4j;1.7.25!jcl-over-slf4j.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.7.0!play-logback_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.8!jackson-datatype-jdk8.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe#config;1.3.3!config.jar(src)
-[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-caffeine-cache_2.12;2.7.0!play-caffeine-cache_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.checkerframework#checker-qual;2.5.2!checker-qual.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.12;2.5.19!akka-actor_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.joda#joda-convert;1.9.2!joda-convert.jar(src)
 [debug] 	[NOT REQUIRED] javax.transaction#jta;1.1!jta.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-logback_2.12;2.7.0!play-logback_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.datatype#jackson-datatype-jdk8;2.9.8!jackson-datatype-jdk8.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.8!scala-reflect.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.akka#akka-parsing_2.12;10.1.7!akka-parsing_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-caffeine-cache_2.12;2.7.0!play-caffeine-cache_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-ahc-ws-standalone_2.12;2.0.1!play-ahc-ws-standalone_2.12.jar(src)
+[debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.9.8!jackson-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-server_2.12;2.7.0!play-server_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.9.8!jackson-databind.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-ahc-ws-standalone_2.12;2.0.1!play-ahc-ws-standalone_2.12.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.akka#akka-protobuf_2.12;2.5.19!akka-protobuf_2.12.jar(src)
-[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.9.8!jackson-annotations.jar(src)
-[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;3.3.0!HikariCP.jar(src)
 [debug] 	[NOT REQUIRED] ch.qos.logback#logback-core;1.2.3!logback-core.jar(src)
-[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.2.0!error_prone_annotations.jar(src)
+[debug] 	[NOT REQUIRED] javax.inject#javax.inject;1!javax.inject.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-lang3;3.8!commons-lang3.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src)
+[debug] 	[NOT REQUIRED] com.google.errorprone#error_prone_annotations;2.2.0!error_prone_annotations.jar(src)
+[debug] 	[NOT REQUIRED] com.zaxxer#HikariCP;3.3.0!HikariCP.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport-native-epoll;4.1.31.Final!netty-transport-native-epoll.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-guice_2.12;2.7.0!play-guice_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.commons#commons-exec;1.3!commons-exec.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-codec;4.1.13.Final!netty-codec.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.12.v20180830!jetty-io.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.141.59!selenium-remote-driver.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.6!httpmime.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-transport-native-unix-common;4.1.31.Final!netty-transport-native-unix-common.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-resolver;4.1.31.Final!netty-resolver.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.12.v20180830!jetty-xml.jar(src)
-[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.141.59!selenium-firefox-driver.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.commons#commons-text;1.4!commons-text.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] com.github.ben-manes.caffeine#jcache;2.6.2!jcache.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-support;3.141.59!selenium-support.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpmime;4.5.6!httpmime.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-remote-driver;3.141.59!selenium-remote-driver.jar(src)
 [debug] 	[NOT REQUIRED] commons-logging#commons-logging;1.2!commons-logging.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.31.Final!netty-common.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.31.Final!netty-buffer.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.7.0!play-test_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-firefox-driver;3.141.59!selenium-firefox-driver.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-core-js;2.33!htmlunit-core-js.jar(src)
-[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-transport-native-unix-common;4.1.31.Final!netty-transport-native-unix-common.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-xml;9.4.12.v20180830!jetty-xml.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-util;9.4.12.v20180830!jetty-util.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-io;9.4.12.v20180830!jetty-io.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-common;4.1.31.Final!netty-common.jar(src)
+[debug] 	[NOT REQUIRED] org.seleniumhq.selenium#selenium-api;3.141.59!selenium-api.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.12;2.7.0!play-netty-server_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.commons#commons-text;1.4!commons-text.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-test_2.12;2.7.0!play-test_2.12.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-http;9.4.12.v20180830!jetty-http.jar(src)
+[debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpcore;4.4.10!httpcore.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams;2.0.0!netty-reactive-streams.jar(src)
-[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.14.0!okio.jar(src)
 [debug] 	[NOT REQUIRED] io.netty#netty-transport;4.1.31.Final!netty-transport.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-buffer;4.1.31.Final!netty-buffer.jar(src)
+[debug] 	[NOT REQUIRED] com.squareup.okio#okio;1.14.0!okio.jar(src)
+[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.7.1!fluentlenium-core.jar(src)
 [debug] 	[NOT REQUIRED] commons-net#commons-net;3.6!commons-net.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-api;9.4.12.v20180830!websocket-api.jar(src)
-[debug] 	[NOT REQUIRED] org.fluentlenium#fluentlenium-core;3.7.1!fluentlenium-core.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.12.v20180830!jetty-client.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.13.Final!netty-handler.jar(src)
 [debug] 	[NOT REQUIRED] org.apache.httpcomponents#httpclient;4.5.6!httpclient.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-handler;4.1.13.Final!netty-handler.jar(src)
 [debug] 	[NOT REQUIRED] commons-codec#commons-codec;1.10!commons-codec.jar(src)
 [debug] 	[NOT REQUIRED] org.atteo.classindex#classindex;3.4!classindex.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject#guice;4.2.2!guice.jar(src)
-[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-netty-server_2.12;2.7.0!play-netty-server_2.12.jar(src)
 [debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit-cssparser;1.2.0!htmlunit-cssparser.jar(src)
-[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.33!htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] junit#junit;4.12!junit.jar(src)
 [debug] 	[NOT REQUIRED] xerces#xercesImpl;2.12.0!xercesImpl.jar(src)
-[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.netty#netty-reactive-streams-http;2.0.0!netty-reactive-streams-http.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty#jetty-client;9.4.12.v20180830!jetty-client.jar(src)
+[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#htmlunit;2.33!htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] com.squareup.okhttp3#okhttp;3.11.0!okhttp.jar(src)
 [debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-common;9.4.12.v20180830!websocket-common.jar(src)
 [debug] 	[NOT REQUIRED] commons-io#commons-io;2.6!commons-io.jar(src)
-[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] xalan#serializer;2.7.2!serializer.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
 [debug] 	[NOT REQUIRED] org.seleniumhq.selenium#htmlunit-driver;2.33.3!htmlunit-driver.jar(src)
 [debug] 	[NOT REQUIRED] xml-apis#xml-apis;1.4.01!xml-apis.jar(src)
-[debug] 	[NOT REQUIRED] org.hamcrest#hamcrest-core;1.3!hamcrest-core.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-sbt#test-interface;1.0!test-interface.jar(src)
+[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.13.Final!netty-codec-http.jar(src)
 [debug] 	[NOT REQUIRED] net.bytebuddy#byte-buddy;1.8.15!byte-buddy.jar(src)
 [debug] 	[NOT REQUIRED] com.google.inject.extensions#guice-assistedinject;4.2.2!guice-assistedinject.jar(src)
-[debug] 	[NOT REQUIRED] xalan#xalan;2.7.2!xalan.jar(src)
-[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.33!neko-htmlunit.jar(src)
-[debug] 	[NOT REQUIRED] io.netty#netty-codec-http;4.1.13.Final!netty-codec-http.jar(src)
-[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.12.v20180830!websocket-client.jar(src)
-[debug] 		tried /home/scottp1/.ivy2/local/com.softwaremill.macwire/macros_2.12/2.3.0/srcs/macros_2.12-sources.jar
-[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
-[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
-[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.7.0!play-docs_2.12.jar(src)
-[debug] 		tried https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar
-[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
-[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
 [debug] 	[NOT REQUIRED] com.novocode#junit-interface;0.11!junit-interface.jar(src)
+[debug] 	[NOT REQUIRED] net.sourceforge.htmlunit#neko-htmlunit;2.33!neko-htmlunit.jar(src)
+[debug] 	[NOT REQUIRED] org.eclipse.jetty.websocket#websocket-client;9.4.12.v20180830!websocket-client.jar(src)
+[debug] 	[NOT REQUIRED] aopalliance#aopalliance;1.0!aopalliance.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(src)
+[debug] 	[NOT REQUIRED] jline#jline;2.14.6!jline.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-docs_2.12;2.7.0!play-docs_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.8!scala-compiler.jar(src)
+[debug] 	[NOT REQUIRED] com.softwaremill.macwire#macros_2.12;2.3.0!macros_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-analysis;5.0.3!asm-analysis.jar(src)
 [debug] 	[NOT REQUIRED] org.pegdown#pegdown;1.6.0!pegdown.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm;5.0.3!asm.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
+[debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.7.0!play-omnidoc_2.12.jar(src)
+[debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
+[debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
 [debug] 	[NOT REQUIRED] org.parboiled#parboiled-core;1.1.7!parboiled-core.jar(src)
 [debug] 	[NOT REQUIRED] com.typesafe.play#play-doc_2.12;2.0.0!play-doc_2.12.jar(src)
-[debug] 	[NOT REQUIRED] org.ow2.asm#asm-util;5.0.3!asm-util.jar(src)
-[debug] 	[NOT REQUIRED] org.ow2.asm#asm-tree;5.0.3!asm-tree.jar(src)
-[debug] 	[NOT REQUIRED] org.parboiled#parboiled-java;1.1.7!parboiled-java.jar(src)
-[debug] 	[NOT REQUIRED] com.typesafe.play#play-omnidoc_2.12;2.7.0!play-omnidoc_2.12.jar(src)
-[info] downloading https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar ...
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar
-[debug] 	public: downloading https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar.sha1
-[debug] sha1 OK for https://repo1.maven.org/maven2/com/softwaremill/macwire/macros_2.12/2.3.0/macros_2.12-2.3.0-sources.jar
-[info] 	[SUCCESSFUL ] com.softwaremill.macwire#macros_2.12;2.3.0!macros_2.12.jar(src) (944ms)
-[debug] :: resolution report :: resolve 1388ms :: artifacts dl 968ms
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT compile produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-compile.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT runtime produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-runtime.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT test produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-test.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT provided produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-provided.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT optional produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-optional.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-assets produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-assets.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-assets-test produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-assets-test.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-plugin produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-plugin.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal-docs produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal-docs.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal-src produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal-src.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT windows produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-windows.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT docker produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-docker.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT linux produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-linux.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT rpm produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-rpm.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT debian produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-debian.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT compile-internal produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-compile-internal.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT runtime-internal produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-runtime-internal.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT test-internal produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-test-internal.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT plugin produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-plugin.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT pom produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-pom.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT scala-tool produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-scala-tool.xml
-[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT docs produced in /opt/jemstep/code/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-docs.xml
-[debug] 	resolve done (1388ms resolve - 968ms download)
+[debug] :: resolution report :: resolve 1434ms :: artifacts dl 27ms
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT compile produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-compile.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT runtime produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-runtime.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT test produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-test.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT provided produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-provided.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT optional produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-optional.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-assets produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-assets.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-assets-test produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-assets-test.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT web-plugin produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-web-plugin.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal-docs produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal-docs.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT universal-src produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-universal-src.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT windows produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-windows.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT docker produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-docker.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT linux produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-linux.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT rpm produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-rpm.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT debian produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-debian.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT compile-internal produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-compile-internal.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT runtime-internal produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-runtime-internal.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT test-internal produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-test-internal.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT plugin produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-plugin.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT pom produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-pom.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT scala-tool produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-scala-tool.xml
+[debug] 	report for scala-web-project#scala-web-project$sources;1.0-SNAPSHOT docs produced in /home/scottp1/dev/scala-web-project/target/scala-2.12/resolution-cache/reports/scala-web-project-scala-web-project$sources-docs.xml
+[debug] 	resolve done (1434ms resolve - 27ms download)

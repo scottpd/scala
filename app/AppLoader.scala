@@ -10,6 +10,8 @@ import _root_.controllers.AssetsComponents
 import play.filters.HttpFiltersComponents
 import services.{SunService, WeatherService}
 
+import scala.concurrent.Future
+
 class AppApplicationLoader extends ApplicationLoader {
 
   def load(context: Context) = {
@@ -24,6 +26,7 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
   with AhcWSComponents
   with AssetsComponents
   with HttpFiltersComponents {
+  private val log = Logger(this.getClass)
   override lazy val controllerComponents = wire[DefaultControllerComponents]
   lazy val prefix: String = "/"
   lazy val router: Router = wire[Routes]
@@ -31,4 +34,14 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
 
   lazy val sunService = wire[SunService]
   lazy val weatherService = wire[WeatherService]
+
+  val onStart = {
+    log.info("The app is about to start")
+  }
+
+  applicationLifecycle.addStopHook { () =>
+    log.info("The app is about to stop")
+    Future.successful(Unit)
+  }
+
 }
