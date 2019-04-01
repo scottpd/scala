@@ -4,7 +4,7 @@
 		module="scala-web-project-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190319091353"
+		publication="20190329134652"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

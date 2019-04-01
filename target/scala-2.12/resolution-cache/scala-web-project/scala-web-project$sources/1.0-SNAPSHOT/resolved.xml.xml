@@ -4,7 +4,7 @@
 		module="scala-web-project$sources"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20190319091241"
+		publication="20190329134615"
 	/>
 	<configurations>
 		<conf name="compile" visibility="public" description=""/>

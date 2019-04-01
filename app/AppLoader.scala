@@ -7,6 +7,7 @@ import router.Routes
 import play.api.routing.Router
 import com.softwaremill.macwire._
 import _root_.controllers.AssetsComponents
+import filters.StatsFilter
 import play.filters.HttpFiltersComponents
 import services.{SunService, WeatherService}
 
@@ -34,6 +35,9 @@ class AppComponents(context: Context) extends BuiltInComponentsFromContext(conte
 
   lazy val sunService = wire[SunService]
   lazy val weatherService = wire[WeatherService]
+
+  lazy val statsFilter: Filter = wire[StatsFilter]
+  override lazy val httpFilters = Seq(statsFilter)
 
   val onStart = {
     log.info("The app is about to start")
