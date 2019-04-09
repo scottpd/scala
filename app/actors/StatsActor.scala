@@ -4,7 +4,7 @@ import actors.StatsActor.Ping
 import actors.StatsActor.{GetStats, RequestReceived}
 import akka.actor.Actor
 
-class StatusActor extends Actor {
+class StatsActor extends Actor {
   var counter = 0
 
   override def receive: Receive = {
