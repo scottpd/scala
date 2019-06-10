@@ -1,5 +1,6 @@
 logs
 target
+project/target
 .bloop
 .metals
 /.idea
