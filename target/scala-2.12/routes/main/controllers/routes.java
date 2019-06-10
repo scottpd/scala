@@ -1,6 +1,6 @@
 // @GENERATOR:play-routes-compiler
-// @SOURCE:/home/scottp1/dev/scala-web-project/conf/routes
-// @DATE:Tue Mar 19 09:15:11 SAST 2019
+// @SOURCE:/Users/scottp1/dev/scala/conf/routes
+// @DATE:Mon Jun 10 14:30:24 SAST 2019
 
 package controllers;
 
